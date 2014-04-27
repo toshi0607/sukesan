@@ -29,7 +29,7 @@ if (!defined('DS')) {
  *
  */
 if (!defined('ROOT')) {
-	define('ROOT', dirname(dirname(dirname(__FILE__))));
+	define('ROOT', DS. 'home'.DS.'toshi0607'.DS.'cakemodule');
 }
 
 /**
@@ -37,7 +37,7 @@ if (!defined('ROOT')) {
  *
  */
 if (!defined('APP_DIR')) {
-	define('APP_DIR', basename(dirname(dirname(__FILE__))));
+	define('APP_DIR', 'app');
 }
 
 /**
