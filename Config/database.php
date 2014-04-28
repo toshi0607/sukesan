@@ -51,22 +51,22 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'club86cake3',
-		'prefix' => '',
+		'host' => 'mysql463.db.sakura.ne.jp',
+		'login' => 'toshi0607',
+		'password' => 'saegusa06071',
+		'database' => 'toshi0607_sukesan',
+		'prefix' => 'sukesan',
 		'encoding' => 'utf8',
 	);
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'club86cake3',
-		'prefix' => '',
-		//'encoding' => 'utf8',
+		'host' => 'mysql463.db.sakura.ne.jp',
+		'login' => 'toshi0607',
+		'password' => 'saegusa06071',
+		'database' => 'toshi0607_sukesan',
+		'prefix' => 'sukesan',
+		'encoding' => 'utf8',
 	);
 }
