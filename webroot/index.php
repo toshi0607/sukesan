@@ -29,7 +29,7 @@ if (!defined('DS')) {
  *
  */
 if (!defined('ROOT')) {
-	define('ROOT', DS. 'home'.DS.'toshi0607'.DS.'cakemodule');
+	define('ROOT', DS. 'home'.DS.'toshi0607'.DS.'sukesan');
 }
 
 /**
