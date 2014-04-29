@@ -1,16 +1,12 @@
 <IfModule mod_rewrite.c>
-2
 RewriteEngine On
-3
-RewriteBase /app/webroot
-4
+RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
-5
 RewriteCond %{REQUEST_FILENAME} !-f
-6
 RewriteCond %{REQUEST_URI} !.(cgi|css|gif|jp?g|png)$
-7
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
-8
 </IfModule>
+
+
+
 

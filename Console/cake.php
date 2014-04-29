@@ -3,8 +3,6 @@
 /**
  * Command-line code generation utility to automate programmer chores.
  *
- * PHP 5
- *
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  *
@@ -16,6 +14,7 @@
  * @link          http://cakephp.org CakePHP(tm) Project
  * @package       app.Console
  * @since         CakePHP(tm) v 2.0
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
 $ds = DIRECTORY_SEPARATOR;
@@ -25,8 +24,8 @@ if (function_exists('ini_set')) {
 	$root = dirname(dirname(dirname(__FILE__)));
 
 	// the following line differs from its sibling
-	// /app/Console/cake.php
-	ini_set('include_path', $root . PATH_SEPARATOR .  $ds . 'Applications' . $ds . 'MAMP' . $ds . 'htdocs' . $ds . 'blog' . $ds . 'Vendor' . $ds . 'pear-pear.cakephp.org' . $ds . 'CakePHP' . PATH_SEPARATOR . ini_get('include_path'));
+	// /lib/Cake/Console/Templates/skel/Console/cake.php
+	ini_set('include_path', $root . $ds . 'lib' . PATH_SEPARATOR . ini_get('include_path'));
 }
 
 if (!include $dispatcher) {
